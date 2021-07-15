@@ -1,4 +1,5 @@
 .page {
+  /* can changes */
   font-family: 'Roboto Slab', serif;
   font-weight: 800;
   font-size: 76px;
@@ -8,7 +9,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* can change */
   background-color: var(--main-white);
   text-shadow: 4px 4px 0 var(--accent-green);
+  padding: 16px;
+  min-width: 478px;
+  box-sizing: border-box;
+}
+
+.placeholder {
+  text-align: center;
 }
