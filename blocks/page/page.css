@@ -3,19 +3,10 @@
   font-family: 'Roboto Slab', serif;
   font-weight: 800;
   font-size: 76px;
-  color: var(--main-blue);
   width: 100%;
   min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--main-white);
-  text-shadow: 4px 4px 0 var(--accent-green);
   padding: 16px;
   min-width: 478px;
   box-sizing: border-box;
-}
-
-.placeholder {
-  text-align: center;
+  padding: 0;
 }
