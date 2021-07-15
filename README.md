@@ -1,6 +1,6 @@
-# 🐟 Cool App Name!
+# 🐟 Cool App Name Landing Page!
 
-### Team Upstream's Project for Practicum by Yandex's July 2021 Code Bash
+### Team Upstream's Landing Page for Practicum by Yandex's July 2021 Code Bash
 
 ## Create By:
 
