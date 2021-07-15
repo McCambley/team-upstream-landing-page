@@ -1,0 +1,11 @@
+@import url(./__image-group/about__image-group.css);
+@import url(./__image/about__image.css);
+@import url(./__paragraph/about__paragraph.css);
+@import url(./__title/about__title.css);
+@import url(./__description/about__description.css);
+@import url(./__image/_small/about__image_small.css);
+
+.about {
+    display: flex;
+    margin-top: 75px;
+}
