@@ -1,0 +1,14 @@
+.page {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 800;
+  font-size: 76px;
+  color: var(--main-blue);
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* can change */
+  background-color: var(--main-white);
+  text-shadow: 4px 4px 0 var(--accent-green);
+}
