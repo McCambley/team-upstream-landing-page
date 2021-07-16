@@ -1,4 +1,4 @@
-# 🐟 Cool App Name Landing Page!
+# 🐟 Elise Bouer Landing Page!
 
 ### Team Upstream's Landing Page for Practicum by Yandex's July 2021 Code Bash
 
