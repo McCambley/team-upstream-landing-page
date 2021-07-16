@@ -2,10 +2,11 @@
   /* can changes */
   font-family: 'Roboto Slab', serif;
   font-weight: 800;
-  width: 100%;
+  /* width: 100%; */
   min-height: 100vh;
   padding: 16px;
-  min-width: 478px;
+  /* min-width: 478px; */
   box-sizing: border-box;
   padding: 0;
+  min-width: 1024px;
 }

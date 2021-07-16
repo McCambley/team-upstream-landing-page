@@ -1,3 +1,6 @@
 .main {
-    width: 100vw;
+  width: 100vw;
+  color: var(--main-black);
+  padding: 0 24px;
+  box-sizing: border-box;
 }

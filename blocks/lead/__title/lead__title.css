@@ -1,5 +1,6 @@
 .lead__title {
-    font-size: 70px;
-    text-align: center;
-    margin: 25px auto 25px auto;
-}   
+  font-size: 70px;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 24px;
+}

@@ -3,8 +3,11 @@
 @import url(./__title/lead__title.css);
 
 .lead {
-    margin-top: 100px;
-    display: flex;
-    flex-direction: column;
-
+  /* margin-top: 100px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  box-sizing: border-box;
 }

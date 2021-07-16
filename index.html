@@ -1,71 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/favicon-16x16.png" />
+    <link rel="manifest" href="./images/favicon/site.webmanifest" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Elise's Home</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/apple-touch-icon.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/favicon-16x16.png" />
-  <link rel="manifest" href="./images/favicon/site.webmanifest" />
-  <link rel="stylesheet" href="./index.css" />
-  <title>Team Upstream</title>
-</head>
+  <body class="page">
+    <header class="header header_scrolled">
+      <a class="logo" href="index.html"><img class="logo__image" src="./images/logo.png" /></a>
+      <!-- <input class="header__menu-btn" type="checkbox" id="header__menu-btn" />
+    <label class="header__menu-icon" for="header__menu-btn"><span class="navicon"></span></label> -->
+      <ul class="header__menu">
+        <li class="header__list"><a class="header__link" href="#home">Home</a></li>
+        <li class="header__list"><a class="header__link" href="#about">About</a></li>
+        <li class="header__list"><a class="header__link" href="#experience">Experience</a></li>
+        <li class="header__list"><a class="header__link" href="#app">App</a></li>
+        <li class="header__list"><a class="header__link" href="#contact">Contact</a></li>
+      </ul>
+    </header>
 
-<body class="page">
+    <main class="main">
+      <section class="lead" id="home">
+        <img class="lead__image" src="./images/elise-5.png" alt="elise-lead" />
+        <h1 class="lead__title">Hi, I'm <span class="accent accent_bounce">Elise</span>.</h1>
+        <h2 class="lead__subtitle">I'm full stack developer working to save the planet.</h2>
+      </section>
 
-  <header class="header" id="home">
-    <a class="logo" href="index.html"><img class="logo__image" src="./images/logo.png" /></a>
-    <input class="header__menu-btn" type="checkbox" id="header__menu-btn" />
-    <label class="header__menu-icon" for="header__menu-btn"><span class="navicon"></span></label>
-    <ul class="header__menu">
-      <li class="header__list"><a class="header__link" href="#home">Home</a></li>
-      <li class="header__list"><a class="header__link" href="#lead">About</a></li>
-      <li class="header__list"><a class="header__link" href="#experience">Experience</a></li>
-      <li class="header__list"><a class="header__link" href="#gallery">Gallery</a></li>
-      <li class="header__list"><a class="header__link" href="#app">App</a></li>
-    </ul>
-  </header>
+      <section class="gallery" id="gallery">
+        <ul class="gallery__card-area">
+          <li class="gallery__card">
+              <a href="#about">
+                  <img class="gallery__card-image" alt="about me" src="./images/elise-2.png">
+                  <div class="gallery__text-container">
+                      <p class="gallery__text">About Me</p>
+                  </div>
+              </a>
+          </li>
+          <li class="gallery__card">
+              <a href="#about">
+                  <img class="gallery__card-image" alt="about me" src="./images/elise-1.png">
+                  <div class="gallery__text-container">
+                      <p class="gallery__text">My Experience</p>
+                  </div>
+              </a>
+          </li>
+          <li class="gallery__card">
+              <a href="#about">
+                  <img class="gallery__card-image" alt="about me" src="./images/elise-3.png">
+                  <div class="gallery__text-container">
+                      <p class="gallery__text">My App</p>
+                  </div>
+              </a>
+          </li>
+          <li class="gallery__card">
+              <a href="#about">
+                  <img class="gallery__card-image" alt="about me" src="./images/elise-4.png">
+                  <div class="gallery__text-container">
+                      <p class="gallery__text">Contact</p>
+                  </div>
+              </a>
+          </li>
+      </ul>
+      </section>
+      
+      <hr>
+      <section id="about" class="about">
+        <h2 class="about__title"><span class="accent">About</span> Me</h2>
+        <p class="about__paragraph">Elise is one of the early <span class="accent">Practicum</span> graduates who is already successful in her web development career. Now, she likes mentoring others and organizing tech events & meetups at the local community center. Before Practicum, she was an elementary school teacher.</p>
+        <p class="about__paragraph">She sold her <span class="accent">small startup</span> to a tech giant one day and is now able to have a laid-back lifestyle as a freelancer, which doesn't mean she's not actively growing as a professional.</p>
+        <p class="about__paragraph">Elise is <span class="accent">spiritual</span>, <span class="accent">sensual</span>, and <span class="accent">stylish</span>. She enjoys reading Tarot and her self-care routine includes daily meditation.</p>
+        <p class="about__paragraph">Elise is very <span class="accent">eco-conscious</span>. She composts and keeps pet chickens in her backyard. She eats the eggs but otherwise she's proudly vegan.</p>
+        <div class="about__facts-container">
+          <hr>
+          <h3 class="about__facts-title">Some Facts About Me</h3>
+          <ul class="about__facts">
+            <li class="about__fact">I love the great outdoors, hiking, camping, mountain-climbing, and skiing</li>
+            <li class="about__fact">I am passionate about animals and animal rights</li>
+            <li class="about__fact">I bring my Gameboy Color with me everywhere I go</li>
+            <li class="about__fact">I'm a Lionel certified Expert Train Conductor</li>
+            <li class="about__fact">I have a black belt in Wing Chun</li>
+            
+          </ul>
+          <hr>
+        </div>
+      </section>
 
-  <main class="main">
+      <section class="experience" id="experience"></section>
+      <section class="app" id="app"></section>
+      <hr>
+      <section class="contact" id="contact">
+        <h2 class="contact__title"><span class="accent">Contact</span> Me</h2>
+        <div class="contact__buttons">
+          <a href="mailto:example@example.com" class="contact__button" target="_blank" rel="noopener">Email Me</a>
+          <a href="http://www.twitter.com" class="contact__button" target="_blank" rel="noopener">Follow Me</a>
+        </div>
+        <img src="./images/elise-contact.png" alt="Woman waving at a screen" class="contact__image">
+      </section>
+      
 
-    <section class="lead" id="lead">
-      <img class="lead__image" src='./images/elise-5.png' alt="elise-lead" />
-      <h1 class="lead__title">Hi, I'm Elise.</h1>
-      <h2 class="lead__subtitle">I'm pretending to be a vegan, and you can too.</h2>
-    </section>
-
-    <section class="about">
-      <div class="about__image-group">
-        <img class="about__image" src="./images/elise-1.png" alt="#" />
-        <img class="about__image about__image_small" src="./images/elise-6.png" alt="#" />
-      </div>
-      <div class="about__paragraph">
-        <h2 class="about__title">About Me</h2>
-        <p class="about__description">I am one of the early Practicum graduates who is growing as a professional, and
-          advancing my career as a freelancer. In my spare time, I like mentoring others and organizing tech events &
-          meetups at the local community
-          center.</p>
-        <p class="about__description">I have an unhealthy obsession with toy trains, use Tarot cards to determine which
-          friends I can actaully trust, and engage in light eco-terrorism.</p>
-      </div>
-    </section>
-
-    <section class="experience" id="experience"></section>
-
-    <section class="gallery" id="gallery"></section>
-
-    <section class="app" id="app">
-      <div class="app__description"></div>
-      <div class="app__technologies"></div>
-    </section>
-
-  </main>
-
-  <footer class="footer"></footer>
-
-  <script src="./index.js"></script>
-</body>
-
+    <script src="./index.js"></script>
+  </body>
 </html>

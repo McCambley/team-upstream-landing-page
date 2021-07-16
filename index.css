@@ -6,6 +6,8 @@
 @import url(./blocks/main/main.css);
 @import url(./blocks/lead/lead.css);
 @import url(./blocks/about/about.css);
+@import url(./blocks/contact/contact.css);
+@import url(./blocks/accent/accent.css);
 
 /* Google fonts imports because so easy */
 
@@ -18,10 +20,20 @@
 /* font-family: 'Roboto Slab', serif; */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+* {
+  border: 1px solid red;
+}
+
 :root {
   --main-white: #fff;
   --main-blue: #0882ff;
+  --main-blue-op: #0883ff41;
   --main-black: #000000;
   --accent-green: #55f676;
+  --accent-green-op: #55f6757e;
   --accent-red: #ff6831;
+  --opaque-white: rgba(255, 255, 255, 0.7);
+  --box-shadow: 0 2px 16px rgba(0, 0, 0, 0.2);
+  --text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  scroll-behavior: smooth;
 }

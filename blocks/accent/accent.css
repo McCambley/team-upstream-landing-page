@@ -1,0 +1,30 @@
+@keyframes bounce {
+  from {
+    text-shadow: 2px 2px 0 var(--accent-green);
+    transform: translate(0px, 0px);
+  }
+
+  to {
+    text-shadow: 6px 6px 0 var(--accent-green);
+    transform: translate(-2px, -2px);
+  }
+}
+
+.accent {
+  display: inline-block;
+  transform: translate(0);
+  color: var(--main-blue);
+  text-shadow: 4px 4px 0 var(--accent-green);
+}
+
+.accent_bounce {
+  animation: bounce 1.5s ease-in-out infinite alternate;
+}
+
+.accent_paragraph {
+  text-shadow: 4px 4px 0 var(--accent-green-op);
+}
+
+/* .accent:hover {
+  animation: none;
+} */

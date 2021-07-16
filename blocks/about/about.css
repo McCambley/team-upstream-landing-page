@@ -1,11 +1,51 @@
-@import url(./__image-group/about__image-group.css);
-@import url(./__image/about__image.css);
-@import url(./__paragraph/about__paragraph.css);
-@import url(./__title/about__title.css);
-@import url(./__description/about__description.css);
-@import url(./__image/_small/about__image_small.css);
-
 .about {
-    display: flex;
-    margin-top: 75px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 32px;
+}
+
+.about__title {
+  font-size: 50px;
+  width: 700px;
+  text-align: left;
+  margin: 0 auto;
+  margin-bottom: 16px;
+}
+
+.about__paragraph {
+  max-width: 700px;
+  margin: 0;
+  font-size: 24px;
+  margin: 0 auto;
+  margin-bottom: 24px;
+}
+
+.about__facts-container {
+  padding-top: 48px;
+  opacity: 0.8;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.about__facts-title {
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.about__facts {
+  list-style: inside;
+  margin: 0;
+  padding: 0;
+  padding-left: 28px;
+}
+
+.about__fact {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 4px;
+}
+
+.about__fact:last-child {
+  margin-bottom: 0;
 }
