@@ -1,18 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/favicon-16x16.png" />
-    <link rel="manifest" href="./images/favicon/site.webmanifest" />
-    <link rel="stylesheet" href="./index.css" />
-    <title>Team Upstream</title>
-  </head>
-  <body class="page">
-    <p class="placeholder">Here's our Landing Page!</p>
-    <script src="./index.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/favicon-16x16.png" />
+  <link rel="manifest" href="./images/favicon/site.webmanifest" />
+  <link rel="stylesheet" href="./index.css" />
+  <title>Team Upstream</title>
+</head>
+
+<body class="page">
+
+  <header class="header" id="home">
+    <a class="logo" href="index.html"><img class="logo__image" src="./images/logo.png" /></a>
+    <input class="header__menu-btn" type="checkbox" id="header__menu-btn" />
+    <label class="header__menu-icon" for="header__menu-btn"><span class="navicon"></span></label>
+    <ul class="header__menu">
+      <li class="header__list"><a class="header__link" href="#home">Home</a></li>
+      <li class="header__list"><a class="header__link" href="#lead">About</a></li>
+      <li class="header__list"><a class="header__link" href="#experience">Experience</a></li>
+      <li class="header__list"><a class="header__link" href="#gallery">Gallery</a></li>
+      <li class="header__list"><a class="header__link" href="#app">App</a></li>
+    </ul>
+  </header>
+
+  <main class="main">
+
+    <section class="lead" id="lead">
+      <img class="lead__image" src='./images/elise-5.png' alt="elise-lead" />
+      <h1 class="lead__title">Hi, I'm Elise.</h1>
+      <h2 class="lead__subtitle">I'm pretending to be a vegan, and you can too.</h2>
+    </section>
+
+    <section class="about">
+      <div class="about__image-group">
+        <img class="about__image" src="./images/elise-1.png" alt="#" />
+        <img class="about__image about__image_small" src="./images/elise-6.png" alt="#" />
+      </div>
+      <div class="about__paragraph">
+        <h2 class="about__title">About Me</h2>
+        <p class="about__description">I am one of the early Practicum graduates who is growing as a professional, and
+          advancing my career as a freelancer. In my spare time, I like mentoring others and organizing tech events &
+          meetups at the local community
+          center.</p>
+        <p class="about__description">I have an unhealthy obsession with toy trains, use Tarot cards to determine which
+          friends I can actaully trust, and engage in light eco-terrorism.</p>
+      </div>
+    </section>
+
+    <section class="experience" id="experience"></section>
+
+    <section class="gallery" id="gallery"></section>
+
+    <section class="app" id="app">
+      <div class="app__description"></div>
+      <div class="app__technologies"></div>
+    </section>
+
+  </main>
+
+  <footer class="footer"></footer>
+
+  <script src="./index.js"></script>
+</body>
+
 </html>
