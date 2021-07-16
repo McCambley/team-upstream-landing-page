@@ -66,6 +66,9 @@
   padding: 8px 16px;
   transition: background-color 0.3s ease;
   box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .app__button:hover {
@@ -80,4 +83,16 @@
   border-radius: 10px;
   width: 100%;
   margin-bottom: 24px;
+}
+
+@media (max-width: 768px) {
+  .app {
+    padding: 100px 0 0;
+  }
+  .app__title {
+    font-size: 54px;
+  }
+  .app__content {
+    padding: 8px;
+  }
 }

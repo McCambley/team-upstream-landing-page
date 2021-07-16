@@ -77,3 +77,23 @@
   /* color: var(--main-blue); */
   text-shadow: var(--text-shadow);
 }
+
+@media (max-width: 1024px) {
+  .gallery {
+    padding: 0;
+  }
+
+  .gallery__card-area {
+    gap: 12px;
+  }
+
+  .gallery__text {
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 768px) {
+  .gallery__card-area {
+    grid-template-columns: 1fr;
+  }
+}

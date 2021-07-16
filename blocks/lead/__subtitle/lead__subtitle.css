@@ -3,3 +3,9 @@
   text-align: center;
   margin: 0;
 }
+
+@media (max-width: 768px) {
+  .lead__subtitle {
+    font-size: 24px;
+  }
+}

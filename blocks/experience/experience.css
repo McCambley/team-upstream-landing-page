@@ -16,6 +16,7 @@
   margin: 0;
   margin-bottom: 32px;
   box-sizing: border-box;
+  text-align: center;
 }
 
 .experience__card-container {
@@ -66,4 +67,23 @@
 
 .experience__paragraph:last-child {
   margin-bottom: 0;
+}
+
+@media (max-width: 1024px) {
+  .experience__card-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .experience {
+    padding: 100px 0 0;
+  }
+  .experience__title {
+    font-size: 54px;
+  }
+
+  .experience__card-container {
+    width: 100%;
+  }
 }

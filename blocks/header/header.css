@@ -19,3 +19,9 @@
 .header_scrolled {
   box-shadow: var(--box-shadow);
 }
+
+@media (max-width: 768px) {
+  .header {
+    justify-content: center;
+  }
+}

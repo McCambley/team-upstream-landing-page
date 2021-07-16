@@ -4,3 +4,10 @@
   margin: 0;
   margin-bottom: 24px;
 }
+
+@media (max-width: 768px) {
+  .lead__title {
+    font-size: 48px;
+    margin-bottom: 12px;
+  }
+}
