@@ -7,6 +7,7 @@
 @import url(./blocks/lead/lead.css);
 @import url(./blocks/about/about.css);
 @import url(./blocks/contact/contact.css);
+@import url(./blocks/experience/experience.css);
 @import url(./blocks/accent/accent.css);
 
 /* Google fonts imports because so easy */

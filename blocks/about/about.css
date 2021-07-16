@@ -3,6 +3,7 @@
   flex-direction: column;
   min-height: 100vh;
   padding: 32px;
+  padding-top: 100px;
 }
 
 .about__title {
@@ -10,7 +11,7 @@
   width: 700px;
   text-align: left;
   margin: 0 auto;
-  margin-bottom: 16px;
+  margin-bottom: 32px;
 }
 
 .about__paragraph {
