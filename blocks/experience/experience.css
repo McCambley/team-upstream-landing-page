@@ -9,12 +9,12 @@
 }
 
 .experience__title {
-  font-size: 50px;
+  font-size: 70px;
   /* width: 700px;
   text-align: left;
   margin: 0 auto; */
   margin: 0;
-  margin-bottom: 20px;
+  margin-bottom: 32px;
   box-sizing: border-box;
 }
 
